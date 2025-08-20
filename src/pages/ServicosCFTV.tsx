@@ -108,7 +108,7 @@ const ServicosCFTV = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/src/assets/team-working.jpg" 
+                src="https://ddtudo.com.br/wp-content/uploads/2023/04/tipos-de-ratos-1080x540.jpg" 
                 alt="Equipe instalando sistema de CFTV" 
                 className="rounded-lg shadow-lg max-w-full h-auto"
               />
@@ -150,67 +150,8 @@ const ServicosCFTV = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 lg:py-24">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Vantagens do nosso CFTV
-              </h2>
-              <div className="space-y-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">{feature}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Monitor className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">HD 1080p</div>
-                  <div className="text-sm text-muted-foreground">Qualidade de Imagem</div>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Smartphone className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">24/7</div>
-                  <div className="text-sm text-muted-foreground">Acesso Remoto</div>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Settings className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">IA</div>
-                  <div className="text-sm text-muted-foreground">Detecção Inteligente</div>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Award className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">3 Anos</div>
-                  <div className="text-sm text-muted-foreground">Garantia Total</div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+     
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-primary text-primary-foreground">
@@ -230,18 +171,11 @@ const ServicosCFTV = () => {
                 className="bg-white text-infralink-navy hover:bg-gray-100"
               >
                 <Link to="/solicitacao">
-                  Solicitar Orçamento Gratuito
+                  Solicitar Serviço
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
-              <Button 
-                asChild 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white hover:text-infralink-navy"
-              >
-                <Link to="/contato">Agendar Consultoria</Link>
-              </Button>
+             
             </div>
           </div>
         </div>

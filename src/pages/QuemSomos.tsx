@@ -34,7 +34,7 @@ const QuemSomos = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Quem Somos</h1>
           <p className="text-xl md:text-2xl text-blue-200 max-w-3xl mx-auto">
-            Conheça a InfraLink e nossa trajetória de sucesso no mercado de TI
+            Conheça a InfraLink e nossa trajetória no mercado de TI
           </p>
         </div>
       </section>
@@ -49,40 +49,21 @@ const QuemSomos = () => {
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  A <strong className="text-foreground">InfraLink</strong> é uma empresa especializada 
-                  em serviços de infraestrutura de redes, com mais de 10 anos de experiência no mercado 
-                  brasileiro. Fundada com o objetivo de oferecer soluções completas e inovadoras em TI, 
-                  crescemos constantemente e nos tornamos referência no setor.
+                  A <strong className="text-foreground">InfraLink</strong> é uma empresa de tecnologia focada em serviços de infraestrutura de redes. Nosso objetivo é oferecer soluções práticas e completas em TI, ajudando empresas a terem um ambiente mais estável e seguro para trabalhar.
                 </p>
                 <p>
-                  Nosso time é composto por profissionais altamente qualificados e certificados, 
-                  especializados em <strong className="text-foreground">implementação de workstations</strong>, 
+                  Contamos com uma equipe qualificada e certificada, preparada para atuar em áreas como implementação de  <strong className="text-foreground">implementação de workstations</strong>, 
                   <strong className="text-foreground"> manutenção de computadores</strong>, 
                   <strong className="text-foreground"> infraestrutura de redes</strong> e 
                   <strong className="text-foreground"> sistemas de monitoramento CFTV</strong>.
                 </p>
                 <p>
-                  Atendemos empresas de todos os portes, desde pequenos escritórios até grandes 
-                  corporações, sempre com foco na qualidade, eficiência e satisfação do cliente. 
-                  Nossa abordagem personalizada garante que cada projeto seja desenvolvido de acordo 
-                  com as necessidades específicas de cada cliente.
+                Atendemos empresas de todos os portes, sempre com atenção à qualidade, eficiência e às necessidades de cada cliente. Nossa forma de trabalho é próxima e personalizada, buscando entregar exatamente o que cada projeto precisa.
                 </p>
               </div>
             </div>
-
-            <div className="grid grid-cols-2 gap-6">
-              {stats.map((stat, index) => (
-                <Card key={index} className="text-center bg-gradient-card border-border">
-                  <CardContent className="p-6">
-                    <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
-                      {stat.number}
-                    </div>
-                    <div className="text-sm font-medium text-muted-foreground">
-                      {stat.label}
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
+            <div>
+              <img className="w-full" src="https://tse3.mm.bing.net/th/id/OIP.f5odmM-JYgggdDvy-yUzagHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
             </div>
           </div>
         </div>

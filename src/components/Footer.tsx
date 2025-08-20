@@ -97,22 +97,22 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-gray-300">
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>contato@infralink.com.br</span>
+                <span>contatoinfralink@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>(11) 9999-9999</span>
+                <span>(31) 7179-3374</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
-                <span>São Paulo, SP</span>
+                <span>Belo Horizonte , MG</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2024 InfraLink. Todos os direitos reservados.</p>
+          <p>&copy; 2025 InfraLink. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

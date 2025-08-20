@@ -90,26 +90,7 @@ const ServicosInfraestrutura = () => {
               Projetos completos de infraestrutura de rede corporativa, 
               desde o cabeamento até a configuração de equipamentos
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button 
-                asChild 
-                size="lg" 
-                className="bg-white text-infralink-navy hover:bg-gray-100"
-              >
-                <Link to="/solicitacao">
-                  Solicitar Orçamento
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Link>
-              </Button>
-              <Button 
-                asChild 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white hover:text-infralink-navy"
-              >
-                <Link to="/contato">Falar com Especialista</Link>
-              </Button>
-            </div>
+           
           </div>
         </div>
       </section>
@@ -201,71 +182,8 @@ const ServicosInfraestrutura = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 lg:py-24">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Por que escolher a InfraLink?
-              </h2>
-              <p className="text-lg text-muted-foreground">
-                Nossa experiência em infraestrutura de redes garante que sua empresa 
-                tenha uma base sólida e confiável para suas operações.
-              </p>
-              <div className="space-y-4">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">{benefit}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Clock className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">24-48h</div>
-                  <div className="text-sm text-muted-foreground">Tempo de Resposta</div>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Award className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">100+</div>
-                  <div className="text-sm text-muted-foreground">Redes Implementadas</div>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Users className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">5★</div>
-                  <div className="text-sm text-muted-foreground">Avaliação Clientes</div>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center bg-gradient-card border-border">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Shield className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-2">2 Anos</div>
-                  <div className="text-sm text-muted-foreground">Garantia Serviços</div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
+     
+    
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-primary text-primary-foreground">
@@ -285,18 +203,11 @@ const ServicosInfraestrutura = () => {
                 className="bg-white text-infralink-navy hover:bg-gray-100"
               >
                 <Link to="/solicitacao">
-                  Solicitar Orçamento Gratuito
+                  Solicitar Serviço
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
-              <Button 
-                asChild 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white hover:text-infralink-navy"
-              >
-                <Link to="/contato">Agendar Consultoria</Link>
-              </Button>
+             
             </div>
           </div>
         </div>

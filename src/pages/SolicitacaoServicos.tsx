@@ -244,44 +244,9 @@ const SolicitacaoServicos = () => {
                           </div>
                         </div>
 
-                        <div className="space-y-3">
-                          <Label>Nível de Urgência *</Label>
-                          <RadioGroup
-                            value={formData.urgencia}
-                            onValueChange={(value) => handleSelectChange("urgencia", value)}
-                            className="grid grid-cols-1 md:grid-cols-3 gap-4"
-                          >
-                            <div className="flex items-center space-x-2">
-                              <RadioGroupItem value="baixa" id="baixa" />
-                              <Label htmlFor="baixa">Baixa (até 7 dias)</Label>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                              <RadioGroupItem value="media" id="media" />
-                              <Label htmlFor="media">Média (até 3 dias)</Label>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                              <RadioGroupItem value="alta" id="alta" />
-                              <Label htmlFor="alta">Alta (24-48h)</Label>
-                            </div>
-                          </RadioGroup>
-                        </div>
+                        
 
-                        <div className="space-y-2">
-                          <Label htmlFor="orcamento">Faixa de Orçamento</Label>
-                          <Select onValueChange={(value) => handleSelectChange("orcamento", value)}>
-                            <SelectTrigger className="border-input bg-background">
-                              <SelectValue placeholder="Selecione uma faixa (opcional)" />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="ate-1000">Até R$ 1.000</SelectItem>
-                              <SelectItem value="1000-5000">R$ 1.000 - R$ 5.000</SelectItem>
-                              <SelectItem value="5000-10000">R$ 5.000 - R$ 10.000</SelectItem>
-                              <SelectItem value="10000-25000">R$ 10.000 - R$ 25.000</SelectItem>
-                              <SelectItem value="acima-25000">Acima de R$ 25.000</SelectItem>
-                              <SelectItem value="a-definir">A definir</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
+                       
 
                         <div className="space-y-2">
                           <Label htmlFor="descricao">Descrição Detalhada *</Label>
@@ -354,20 +319,7 @@ const SolicitacaoServicos = () => {
                   </CardContent>
                 </Card>
 
-                <Card className="bg-card border-border">
-                  <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-foreground mb-3">
-                      Atendimento Urgente
-                    </h3>
-                    <p className="text-sm text-muted-foreground mb-4">
-                      Para emergências ou situações críticas, entre em contato diretamente:
-                    </p>
-                    <div className="space-y-2 text-sm">
-                      <p><strong>Telefone:</strong> (11) 9999-9999</p>
-                      <p><strong>E-mail:</strong> urgencia@infralink.com.br</p>
-                    </div>
-                  </CardContent>
-                </Card>
+
               </div>
             </div>
           </div>

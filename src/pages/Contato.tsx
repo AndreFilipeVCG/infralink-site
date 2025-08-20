@@ -43,27 +43,22 @@ const Contato = () => {
     {
       icon: Mail,
       title: "E-mail",
-      value: "contato@infralink.com.br",
+      value: "contatoinfralink@gmail.com",
       description: "Envie sua mensagem"
     },
     {
       icon: Phone,
       title: "Telefone",
-      value: "(11) 9999-9999",
+      value: "(31) 7179-3374",
       description: "Atendimento comercial"
     },
     {
       icon: MapPin,
       title: "Localização",
-      value: "São Paulo, SP",
+      value: "Belo Horizonte , MG",
       description: "Atendemos toda a região"
     },
-    {
-      icon: Clock,
-      title: "Horário",
-      value: "Seg - Sex: 8h às 18h",
-      description: "Suporte 24/7 disponível"
-    }
+    
   ];
 
   return (
@@ -210,25 +205,8 @@ const Contato = () => {
                 ))}
               </div>
 
-              {/* Call to Action */}
-              <Card className="mt-8 bg-gradient-primary text-primary-foreground border-0">
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-bold mb-3">
-                    Precisa de Atendimento Urgente?
-                  </h3>
-                  <p className="mb-4 text-blue-100">
-                    Nossa equipe de suporte técnico está disponível 24/7 
-                    para emergências e situações críticas.
-                  </p>
-                  <Button 
-                    variant="secondary" 
-                    className="bg-white text-infralink-navy hover:bg-gray-100"
-                  >
-                    <Phone className="mr-2 w-4 h-4" />
-                    Ligar Agora
-                  </Button>
-                </CardContent>
-              </Card>
+              
+              
             </div>
           </div>
         </div>

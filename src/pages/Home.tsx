@@ -34,11 +34,9 @@ const Home = () => {
 
   const benefits = [
     "Equipe especializada e certificada",
-    "Suporte técnico 24/7",
     "Soluções personalizadas",
     "Garantia de qualidade",
-    "Preços competitivos",
-    "Atendimento rápido"
+    "Atendimento rápido e prático"
   ];
 
   return (
@@ -48,7 +46,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/40"></div>
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url(https://tse1.explicit.bing.net/th/id/OIP.aAlAdNxYkweuoMoZ0dHlawHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3)` }}
         ></div>
         <div className="relative container mx-auto px-4 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -69,17 +67,9 @@ const Home = () => {
                 className="bg-white text-infralink-navy hover:bg-gray-100 font-semibold"
               >
                 <Link to="/solicitacao">
-                  Solicitar Orçamento
+                  Solicitar Serviço
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-              </Button>
-              <Button 
-                asChild 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white hover:text-infralink-navy"
-              >
-                <Link to="/quem-somos">Conhecer a Empresa</Link>
               </Button>
             </div>
           </div>
@@ -138,8 +128,7 @@ const Home = () => {
                 Por que escolher a InfraLink?
               </h2>
               <p className="text-lg text-muted-foreground">
-                Somos uma empresa consolidada no mercado de TI, com anos de experiência 
-                e um time altamente qualificado para atender suas necessidades.
+                Somos uma empresa de TI com uma equipe qualificada e pronta para ajudar você a encontrar as melhores soluções para o seu negócio.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {benefits.map((benefit, index) => (
@@ -174,7 +163,7 @@ const Home = () => {
                   <Button 
                     asChild 
                     variant="outline" 
-                    className="w-full border-white text-white hover:bg-white hover:text-infralink-navy"
+                    className="w-full bg-white text-infralink-navy hover:bg-gray-100"
                   >
                     <Link to="/solicitacao">Solicitar Serviço</Link>
                   </Button>
