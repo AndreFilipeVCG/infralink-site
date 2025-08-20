@@ -9,8 +9,8 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <Network className="w-5 h-5 text-primary-foreground" />
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                <img src="/src/assets/infralink.png" alt="" />
               </div>
               <span className="text-xl font-bold">InfraLink</span>
             </div>

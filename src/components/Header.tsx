@@ -28,8 +28,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Network className="w-5 h-5 text-primary-foreground" />
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img src="/src/assets/infralink.png" alt="" />
             </div>
             <span className="text-xl font-bold text-infralink-navy">
               InfraLink

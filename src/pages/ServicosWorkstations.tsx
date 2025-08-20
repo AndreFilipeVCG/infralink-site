@@ -109,9 +109,9 @@ const ServicosWorkstations = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="https://ddtudo.com.br/wp-content/uploads/2023/04/tipos-de-ratos-1080x540.jpg" 
-                alt="Equipe implementando workstations" 
-                className="rounded-lg shadow-lg max-w-full h-auto"
+                src="/src/assets/workstation.jpeg"
+                alt="Equipe implementando works"
+                className="rounded-lg shadow-lg w-full h-[500px] object-cover object-center" 
               />
             </div>
           </div>

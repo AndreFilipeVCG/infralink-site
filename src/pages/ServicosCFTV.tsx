@@ -12,6 +12,7 @@ import {
   Settings,
   Award
 } from "lucide-react";
+import { url } from "inspector";
 
 const ServicosCFTV = () => {
   const devices = [
@@ -107,10 +108,10 @@ const ServicosCFTV = () => {
               </Button>
             </div>
             <div className="flex justify-center">
-              <img 
-                src="https://ddtudo.com.br/wp-content/uploads/2023/04/tipos-de-ratos-1080x540.jpg" 
-                alt="Equipe instalando sistema de CFTV" 
-                className="rounded-lg shadow-lg max-w-full h-auto"
+              <img
+                src="/src/assets/cftv.jpeg"
+                alt="Equipe instalando sistema de CFTV"
+                className="rounded-lg shadow-lg w-full h-[450px] object-cover object-center"
               />
             </div>
           </div>

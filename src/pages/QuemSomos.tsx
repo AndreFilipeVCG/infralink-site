@@ -63,7 +63,7 @@ const QuemSomos = () => {
               </div>
             </div>
             <div>
-              <img className="w-full" src="https://tse3.mm.bing.net/th/id/OIP.f5odmM-JYgggdDvy-yUzagHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+              <img className="w-full rounded-lg" src="/src/assets/image.jpg" alt="" />
             </div>
           </div>
         </div>

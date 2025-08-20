@@ -44,10 +44,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-hero text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 bg-black/40"></div>
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(https://tse1.explicit.bing.net/th/id/OIP.aAlAdNxYkweuoMoZ0dHlawHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3)` }}
-        ></div>
+        
         <div className="relative container mx-auto px-4 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
