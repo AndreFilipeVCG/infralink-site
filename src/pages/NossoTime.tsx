@@ -38,15 +38,43 @@ const NossoTime = () => {
     }
   ];
 
-  const certifications = [
-    "CompTIA A+",
-    "CompTIA Network+",
-    "CompTIA Security+",
-    "Cisco CCNA",
-    "Microsoft Certified",
-    "VMware Certified",
-    "ITIL Foundation",
-    "Certified Ethical Hacker"
+  const teamMembers = [
+    {
+      name: "Carlos Silva",
+      role: "Líder Técnico",
+      image: "/lovable-uploads/2eef37a7-4c27-4f4b-a9a3-e7b8d113b4cc.png",
+      description: "Especialista em infraestrutura de redes com mais de 8 anos de experiência em projetos corporativos de grande escala.",
+      certifications: [
+        "Cisco CCNA",
+        "CompTIA Network+",
+        "ITIL Foundation",
+        "VMware Certified"
+      ]
+    },
+    {
+      name: "Marina Santos",
+      role: "Gerente de TI",
+      image: "/lovable-uploads/2eef37a7-4c27-4f4b-a9a3-e7b8d113b4cc.png",
+      description: "Responsável pela coordenação de projetos e implementação de soluções de workstations e sistemas corporativos.",
+      certifications: [
+        "Microsoft Certified",
+        "CompTIA A+",
+        "Project Management",
+        "ITIL Foundation"
+      ]
+    },
+    {
+      name: "Roberto Lima",
+      role: "Especialista em CFTV",
+      image: "/lovable-uploads/2eef37a7-4c27-4f4b-a9a3-e7b8d113b4cc.png",
+      description: "Expert em sistemas de monitoramento e segurança eletrônica, com foco em câmeras IP e sistemas integrados.",
+      certifications: [
+        "Certified Ethical Hacker",
+        "CompTIA Security+",
+        "Axis Certified",
+        "Hikvision Certified"
+      ]
+    }
   ];
 
   return (
@@ -189,55 +217,96 @@ const NossoTime = () => {
         </div>
       </section>
 
-      {/* Certifications Section */}
-      <section className="py-16 lg:py-24 bg-infralink-navy text-primary-foreground">
+      {/* Team Members Section */}
+      <section className="py-16 lg:py-24 bg-accent">
         <div className="container mx-auto px-4">
-          <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">
-              Certificações e Qualificações
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+              Nossos Especialistas
             </h2>
-            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
-              Nossa equipe possui as principais certificações do mercado de TI
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Conheça nossa equipe de profissionais certificados e suas especialidades
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {certifications.map((cert, index) => (
-                <div 
-                  key={index}
-                  className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center hover:bg-white/20 transition-colors"
-                >
-                  <div className="text-sm font-medium">{cert}</div>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-primary-foreground">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {teamMembers.map((member, index) => (
+              <Card key={index} className="text-center bg-card border-border hover:shadow-primary transition-all duration-300">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold mb-4">Compromisso com a Excelência</h3>
-                  <p className="text-blue-100 mb-6">
-                    Nosso time está constantemente se capacitando e obtendo novas certificações 
-                    para oferecer sempre o melhor serviço aos nossos clientes.
+                  <div className="relative mb-6">
+                    <div className="w-32 h-32 mx-auto relative">
+                      <div className="w-full h-full rounded-full border-4 border-primary bg-gradient-primary p-1">
+                        <img 
+                          src={member.image} 
+                          alt={`Foto de ${member.name}`}
+                          className="w-full h-full rounded-full object-cover"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
+                  <p className="text-lg font-semibold text-foreground mb-4">{member.role}</p>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    {member.description}
                   </p>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                    <div>
-                      <div className="text-2xl font-bold mb-1">100%</div>
-                      <div className="text-sm text-blue-200">Técnicos Certificados</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold mb-1">25h</div>
-                      <div className="text-sm text-blue-200">Treinamento Mensal</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold mb-1">5★</div>
-                      <div className="text-sm text-blue-200">Avaliação dos Clientes</div>
+                  
+                  <div className="space-y-3">
+                    <h4 className="font-semibold text-foreground">Certificações:</h4>
+                    <div className="space-y-2">
+                      {member.certifications.map((cert, certIndex) => (
+                        <div 
+                          key={certIndex}
+                          className="flex items-center justify-center"
+                        >
+                          <Badge 
+                            variant="secondary" 
+                            className="bg-gradient-primary text-primary-foreground px-4 py-1"
+                          >
+                            {cert}
+                          </Badge>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </CardContent>
               </Card>
-            </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Excellence Commitment Section */}
+      <section className="py-16 lg:py-24 bg-infralink-navy text-primary-foreground">
+        <div className="container mx-auto px-4">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Compromisso com a Excelência
+            </h2>
+            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
+              Nossa equipe está constantemente se capacitando para oferecer sempre o melhor serviço
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto text-center">
+            <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-primary-foreground">
+              <CardContent className="p-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                  <div>
+                    <div className="text-3xl font-bold mb-2">100%</div>
+                    <div className="text-blue-200">Técnicos Certificados</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl font-bold mb-2">25h</div>
+                    <div className="text-blue-200">Treinamento Mensal</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl font-bold mb-2">5★</div>
+                    <div className="text-blue-200">Avaliação dos Clientes</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
