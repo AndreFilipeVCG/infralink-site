@@ -19,7 +19,7 @@ const NossoTime = () => {
     {
       name: "Ana Flávia",
       role: "Gerente de Administração",
-      image: "/public/assets/membros/ana.png",
+      image: "/assets/membros/ana.png",
       description: "Apresentamos a liderança estratégica por trás de nossas operações. Com visão clara, disciplina exemplar e experiência consolidada, Ana Flávia conduz nossa administração com precisão, garantindo eficiência e crescimento sustentável.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -31,7 +31,7 @@ const NossoTime = () => {
     },{
       name: "Maria Luiza",
       role: "Gerente de Comunicação",
-      image: "/public/assets/membros/malu.png",
+      image: "/assets/membros/malu.png",
       description: "Apresentamos a voz que conecta nossa empresa ao mundo. Com criatividade, eloquência e habilidade de engajar, Maria Luiza transforma ideias em mensagens impactantes, fortalecendo nossa presença e reputação.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -43,7 +43,7 @@ const NossoTime = () => {
     },{
       name: "Felipe Maciel",
       role: "Gerente de Projeto",
-      image: "/public/assets/membros/felipe.jpeg",
+      image: "/assets/membros/felipe.jpeg",
       description: "Apresentamos o mestre da execução estratégica. Com organização impecável, liderança inspiradora e foco em resultados, Felipe Maciel transforma desafios em conquistas, conduzindo cada projeto ao sucesso.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -55,7 +55,7 @@ const NossoTime = () => {
     },{
       name: "Vitor santos",
       role: "Gerente de Materiais",
-      image: "/public/assets/membros/vitor.jpeg",
+      image: "/assets/membros/vitor.jpeg",
       description: "Apresentamos a força que mantém nosso fluxo operacional impecável. Com visão logística, atenção aos detalhes e experiência sólida, Vitor Santos garante que recursos e materiais estejam sempre disponíveis e otimizados..",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -68,7 +68,7 @@ const NossoTime = () => {
     {
       name: "Miguel Xavier",
       role: "Gerente de IA",
-      image: "/public/assets/membros/miguel.jpeg",
+      image: "/assets/membros/miguel.jpeg",
       description: "Apresentamos a mente que transforma dados em inovação. Com expertise tecnológica, curiosidade incansável e visão futurista, Miguel Xavier impulsiona nossa empresa através da inteligência artificial, moldando soluções inteligentes e eficientes.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -82,7 +82,7 @@ const NossoTime = () => {
     {
       name: "André Filipe",
       role: "Gerente de TI",
-      image: "/public/assets/membros/andre.png",
+      image: "/assets/membros/andre.png",
       description: "Apresentamos o guardião da nossa infraestrutura digital. Com conhecimento profundo, pensamento analítico e paixão por tecnologia, André Filipe garante que nossos sistemas funcionem com segurança, velocidade e inovação contínua.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -94,7 +94,7 @@ const NossoTime = () => {
     },{
       name: "Arthur Bison",
       role: "Colaborador",
-      image: "/public/assets/membros/arthur.jpeg",
+      image: "/assets/membros/arthur.jpeg",
       description: "Apresentamos a energia que move nossa empresa diariamente. Com dedicação, talento e espírito de equipe, cada colaborador contribui para transformar nossa visão em realidade, tornando o sucesso coletivo possível.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
@@ -106,7 +106,7 @@ const NossoTime = () => {
     },{
       name: "Lucas Lima",
       role: "Colaborador",
-      image: "/public/assets/membros/lucas.jpeg",
+      image: "/assets/membros/lucas.jpeg",
       description: "Apresentamos a energia que move nossa empresa diariamente. Com dedicação, talento e espírito de equipe, cada colaborador contribui para transformar nossa visão em realidade, tornando o sucesso coletivo possível.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",

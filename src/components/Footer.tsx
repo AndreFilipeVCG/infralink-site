@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center">
-                <img src="/public/assets/infralink.png" alt="" />
+                <img src="/assets/infralink.png" alt="" />
               </div>
               <span className="text-xl font-bold">InfraLink</span>
             </div>
