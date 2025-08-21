@@ -109,7 +109,7 @@ const ServicosWorkstations = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/src/assets/workstation.jpeg"
+                src="/public/assets/workstation.jpeg"
                 alt="Equipe implementando works"
                 className="rounded-lg shadow-lg w-full h-[500px] object-cover object-center" 
               />

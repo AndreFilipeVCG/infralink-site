@@ -29,7 +29,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 flex items-center justify-center">
-              <img src="/src/assets/infralink.png" alt="" />
+              <img src="/public/assets/infralink.png" alt="" />
             </div>
             <span className="text-xl font-bold text-infralink-navy">
               InfraLink

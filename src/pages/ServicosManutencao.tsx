@@ -96,7 +96,7 @@ const ServicosManutencao = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/src/assets/computador.jpeg"
+                src="/public/assets/computador.jpeg"
                 alt="Técnico realizando manutenção em computador" 
                 className="rounded-lg shadow-lg w-full h-[400px] object-cover object-center"
               />

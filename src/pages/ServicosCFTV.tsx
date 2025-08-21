@@ -109,7 +109,7 @@ const ServicosCFTV = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src="/src/assets/cftv.jpeg"
+                src="/public/assets/cftv.jpeg"
                 alt="Equipe instalando sistema de CFTV"
                 className="rounded-lg shadow-lg w-full h-[450px] object-cover object-center"
               />
