@@ -6,7 +6,7 @@ const NossoTime = () => {
     {
      name: "Vinicius Gontijo",
       role: "Líder",
-      image:"/public/assets/membros/vinicius.jpeg",
+      image:"/assets/membros/vinicius.jpeg",
       description: "Apresentamos a força visionária por trás de nossa empresa. Com uma mente incisiva, paixão inabalável e um histórico impressionante, Carlos lidera nossa equipe rumo a um futuro inspirador e próspero.",
       certifications: [
         "https://images.credly.com/size/160x160/images/19e742ef-13be-4d26-87ed-ac8f5fd0643c/image.png",
